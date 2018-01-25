@@ -1,11 +1,14 @@
- int switchState = 0;
+
+int switchState = 0;
 void setup() 
 {
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
+  pinMode(10, OUTPUT);
   pinMode(2, INPUT);
-  pinMode(7, OUTPUT);
+  pinMode(6, INPUT);
+ 
  
 }
 void loop() 
