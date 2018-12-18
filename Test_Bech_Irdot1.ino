@@ -2,8 +2,8 @@
 int switchState = 0;
 void setup() 
 {
-  pinMode(3, OUTPUT);
-  pinMode(4, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
   pinMode(5, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(2, INPUT);
